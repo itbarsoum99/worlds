@@ -162,8 +162,7 @@ a:hover {
   }
   .earth1, .earth2 {
     background-size: 100vw auto;
-    height: auto;
-    width: 100vw;
+    height: 65vh;
   }
   .card {
     margin-left: 4vw;
