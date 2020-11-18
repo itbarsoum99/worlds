@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .change:hover {
   color: #fff;
+  background-color: #24495e;
 }
 
 h2 {
@@ -65,6 +66,26 @@ td {
   width: 50vw;
   border: none;
   padding: 2vw;
+  vertical-align: top;
+}
+
+.title h1 {
+  text-align: center;
+}
+
+.title {
+  width: 100vw;
+}
+
+.title th {
+  margin: auto;
+  position: absolute;
+  width: 100vw;
+}
+
+
+.right {
+  text-align: right;
 }
 
 table {
@@ -109,8 +130,9 @@ a {
 }
 
 a:hover {
-  color: #fff;
-  text-decoration-color: #fff;
+  color: #111;
+  text-decoration-color: #111;
+  background-color: #6c6e97;
 }
 
 @media (max-width: 800px) {
@@ -141,6 +163,7 @@ a:hover {
     padding-right: 2.5vw;
   }
 }
+
 
 @media (pointer: coarse) {
   table,
