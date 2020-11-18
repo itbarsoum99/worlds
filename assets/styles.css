@@ -9,6 +9,14 @@ body {
   color: #fff;
 }
 
+body:hover {
+  cursor: default;
+}
+
+::selection {
+  background-color: transparent;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat Alternates", monospace;
   font-weight: 600;
@@ -133,6 +141,7 @@ a:hover {
   color: #111;
   text-decoration-color: #111;
   background-color: #6c6e97;
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
