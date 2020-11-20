@@ -7,6 +7,13 @@ body {
   margin: 0 !important;
   background-color: #111111;
   color: #fff;
+  padding-bottom: 60px;
+}
+
+#privacy {
+  padding-left: 25vw;
+  padding-right: 25vw;
+  padding-top: 5vh;
 }
 
 body:hover {
@@ -18,7 +25,7 @@ body:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat Alternates", monospace;
+  font-family: "Montserrat", monospace;
   font-weight: 600;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -45,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 .change:hover {
   color: #fff;
   background-color: #24495e;
+  cursor: default;
 }
 
 h2 {
@@ -55,6 +63,18 @@ h4 {
   font-size: 18px;
 }
 
+footer {
+  width: 100vw;
+  bottom: 0;
+  right: 0;
+  background-color: #222;
+  padding: 8px;
+  padding-right: 10px;
+  text-align: center;
+  word-break: break-word;
+  z-index: 1 !important;
+  position: fixed;
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -96,6 +116,10 @@ td {
   text-align: right;
 }
 
+th {
+  z-index: 2 !important;
+}
+
 table {
   top: 0;
   margin: 0;
@@ -128,7 +152,11 @@ table {
 }
 
 img {
-  width: 45vw;
+  width: 500px;
+}
+
+img:hover {
+  cursor: zoom-in;
 }
 
 a {
@@ -138,9 +166,8 @@ a {
 }
 
 a:hover {
-  color: #111;
-  text-decoration-color: #111;
-  background-color: #6c6e97;
+  color: #fff;
+  text-decoration-color: #fff;
   cursor: pointer;
 }
 
@@ -170,6 +197,10 @@ a:hover {
     margin-right: 4vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+  }
+  #privacy {
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 }
 
@@ -201,5 +232,9 @@ a:hover {
     margin-right: 4vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+  }
+  #privacy {
+    padding-left: 15vw;
+    padding-right: 15vw;
   }
 }
