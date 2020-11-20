@@ -10,7 +10,7 @@ body {
   padding-bottom: 15vh;
 }
 
-#privacy {
+.non-home {
   padding-left: 25vw;
   padding-right: 25vw;
   padding-top: 5vh;
@@ -35,7 +35,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #2c2b2b;
   padding: 1.5vw;
   border-radius: 15px;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
+  box-shadow: 0 7px #4e4d4d;
+  transition: 0.3s;
 }
 
 .date {
@@ -116,6 +118,10 @@ td {
   text-align: right;
 }
 
+.right .card {
+  box-shadow: 0 7px #4e4d4d;
+}
+
 th {
   z-index: 2 !important;
 }
@@ -165,10 +171,20 @@ a {
   text-decoration-color: grey;
 }
 
+.cardlink {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 a:hover {
   color: #fff;
   text-decoration-color: #fff;
   cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 7px #5f5e5e; 
 }
 
 @media (max-width: 800px) {
@@ -197,8 +213,9 @@ a:hover {
     margin-right: 4vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+    box-shadow: 0 7px #4e4d4d;
   }
-  #privacy {
+  .non-home {
     padding-left: 15vw;
     padding-right: 15vw;
   }
@@ -232,8 +249,9 @@ a:hover {
     margin-right: 4vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+    box-shadow: 0 7px #4e4d4d;
   }
-  #privacy {
+  .non-home {
     padding-left: 15vw;
     padding-right: 15vw;
   }
