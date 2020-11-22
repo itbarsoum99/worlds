@@ -7,7 +7,7 @@ body {
   margin: 0 !important;
   background-color: #111111;
   color: #fff;
-  padding-bottom: 15vh;
+  padding-bottom: 10vh;
 }
 
 .non-home {
@@ -16,9 +16,20 @@ body {
   padding-top: 5vh;
 }
 
+.non-home .card {
+  box-shadow: 0 0px #4e4d4d;
+}
+
+.non-home .card:hover {
+  cursor: default;
+  box-shadow: 0 0px #4e4d4d; 
+}
+
 body:hover {
   cursor: default;
 }
+
+
 
 ::selection {
   background-color: transparent;
@@ -54,7 +65,6 @@ h1, h2, h3, h4, h5, h6 {
 .change:hover {
   color: #fff;
   background-color: #24495e;
-  cursor: default;
 }
 
 h2 {
@@ -70,12 +80,18 @@ footer {
   bottom: 0;
   right: 0;
   background-color: #222;
-  padding: 8px;
+  padding: 0px;
   padding-right: 10px;
   text-align: center;
   word-break: break-word;
   z-index: 1 !important;
   position: fixed;
+}
+
+hr {
+  height: 3px;
+  background-color: #333;
+  border: none;
 }
 
 body::-webkit-scrollbar {
@@ -91,6 +107,12 @@ body {
   line-height: 0%;
   font-family: "Montserrat", monospace;
 }
+
+.note {
+  padding-bottom: 1vw;
+  font-size: 14px;
+}
+
 
 td {
   width: 50vw;
@@ -185,6 +207,7 @@ a:hover {
 
 .card:hover {
   box-shadow: 0 8px #5f5e5e; 
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {

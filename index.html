@@ -2,7 +2,6 @@
 <head>
   <title>Worlds</title>
   <link rel="stylesheet" href="/assets/styles.css">
-  <base target="_blank">
 </head>
 <body>
   <table>
@@ -16,17 +15,18 @@
       <td class="map" id="map1">
         <h4 class="designation">Earth-1</h4>
         <h2>Map</h2>
-        <a href="/assets/earth1map.png"><img src="/assets/earth1map.png" alt="normal map of the US"></a>
+        <a href="/assets/earth1map.png" target="_blank"><img src="/assets/earth1map.png" alt="normal map of the US"></a>
       </td>
       <td class="map right" id="map2">
         <h4 class="designation">Earth-2</h4>
         <h2>Map</h2>
-        <a href="/assets/earth2map2.png"><img src="/assets/earth2map2.png" alt="map of earth 2 with missing areas thanks to sea water rise"></a>
+        <a href="/assets/earth2map2.png" target="_blank"><img src="/assets/earth2map2.png" alt="map of earth 2 with missing areas thanks to sea water rise"></a>
       </td>
     <tr>
       <td class="history" id="history1">
         <h4 class="designation">Earth-1</h4>
         <h2>History</h2>
+        <h4 class="designation note">Click cards for more information.</h4>
         <a href="/changes#amrev" class="cardlink">
           <section class="card">
             <h4 class="date">1776</h4>
@@ -76,10 +76,25 @@
             <p>The Civil War is fought mostly over the issues of the rights of individual states following the secession of the Confederacy. The war lasts four years and the Confederacy surrenders in 1865, beginning the process of Reconstruction.</p>
           </section>
         </a>
+        <a class="cardlink" href="/changes#reconstruction">
+          <section class="card">
+            <h4 class="date">1867</h4>
+            <h3>Reconstruction</h3>
+            <p>The Union, having won the Civil War, reconstructs the country by implementing significant civil rights reforms, including the right to vote for non-white people and the end of slavery. They use their leverage over the South to get these reforms passed as constitutional amendments.</p>
+          </section>
+        </a>
+        <a class="cardlink" href="/changes#indrev">
+          <section class="card">
+            <h4 class="date">1890</h4>
+            <h3>Industrial Revolution</h3>
+            <p>The Industrial Revolution hits America in full force, industrializing farming, transportation, and textiles. This industrial revolution is a major contributor to the global climate crisis which would emerge in the 21st century.</p>
+          </section>
+        </a>
       </td>
       <td class="history right" id="history2">
         <h4 class="designation">Earth-2</h4>
         <h2>History</h2>
+        <h4 class="designation note">Click cards for more information.</h4>
         <a href="/changes#amrev" class="cardlink">
           <section class="card">
             <h4 class="date">1776</h4>
@@ -122,7 +137,28 @@
             <p>The <span class="change">American colonies attempt to secede from Britain following the War of 1825</span>. They declare their independence again and try to force the occupation out of the colonies. The occupation leaves and waits for backup on the water from the British Navy, while the colonies prepare for an inevitable war.</p>
           </section>
         </a>
-      </td>
+        <a class="cardlink" href="/changes#civilwar">
+          <section class="card">
+            <h4 class="date">1832</h4>
+            <h3>War</h3>
+            <p>The <span class="change">British assemble their forces to prepare to invade the recently-seceded America</span>, trying to reclaim their territory. The war lasts for three years, costing thousands of lives. In the end, the <span class="change">British win</span> a war between the two for the second time, bolstered by a strong navy force uncountered by the Americans.</p>
+          </section>
+        </a>
+        <a class="cardlink" href="/changes#reconstruction">
+          <section class="card">
+            <h4 class="date">1836</h4>
+            <h3>Reconstruction</h3>
+            <p>The <span class="change">British implement stricter crackdown measures on the colonies</span>, including a 19:00 curfew, a <span class="change">government enslavement policy of civilians</span>, quartering of soldiers with internal espionage upon citizens, and forced factory work, as the empire industrializes.</p>
+          </section>
+        </a>
+        <a class="cardlink" href="/changes#indrev">
+          <section class="card">
+            <h4 class="date">1880</h4>
+            <h3>Industrial Revolution</h3>
+            <p>The industrial revolution is in full swing, with increased factory work, urbanization, and less demand for outdoor labor. <span class="change">The British force all American citizens over the age of 15 that are unemployed and are not enlisted in the British military to work in a factory for little or no pay.</span></p>
+          </section>
+        </a>
+     </td>
     </tr>
     <!--
     <tr>
@@ -157,7 +193,8 @@
     </tr>
     -->
   </table>
-  <footer>
-    <p><a href="https://www.freepik.com/">Freepik</a> vectors. <a href="https://mapchart.net/">MapChart</a> maps. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">BY-NC-SA</a> license. <a href="/privacy/" target="_self">Privacy</a>.</p>
+  <footer id="footer">
+    <p><a href="https://www.freepik.com/" target="_blank">Freepik</a> vectors. <a href="https://mapchart.net/" target="_blank">MapChart</a> maps. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">BY-NC-SA</a> license. <a href="/privacy/" target="_self">Privacy</a>.</p>
   </footer>
+  <script src="/assets/main.js"></script>
 </body>
