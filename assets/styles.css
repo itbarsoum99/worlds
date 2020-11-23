@@ -17,12 +17,12 @@ body {
 }
 
 .non-home .card {
-  box-shadow: 0 0px #4e4d4d;
+  margin-bottom: 3vh;
 }
 
 .non-home .card:hover {
   cursor: default;
-  box-shadow: 0 0px #4e4d4d; 
+  background-color: #2c2b2b;
 }
 
 body:hover {
@@ -45,10 +45,9 @@ h1, h2, h3, h4, h5, h6 {
 .card {
   background-color: #2c2b2b;
   padding: 1.5vw;
-  border-radius: 15px;
-  margin-bottom: 3vh;
-  box-shadow: 0 7px #4e4d4d;
-  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  transition: 0.4s;
 }
 
 .date {
@@ -141,7 +140,6 @@ td {
 }
 
 .right .card {
-  box-shadow: 0 7px #4e4d4d;
 }
 
 th {
@@ -206,8 +204,8 @@ a:hover {
 }
 
 .card:hover {
-  box-shadow: 0 8px #5f5e5e; 
   cursor: pointer;
+  background-color: #383737;
 }
 
 @media (max-width: 800px) {
@@ -236,7 +234,6 @@ a:hover {
     margin-right: 5vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    box-shadow: 0 7px #4e4d4d;
   }
   .non-home {
     padding-left: 15vw;
@@ -272,7 +269,6 @@ a:hover {
     margin-right: 5vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    box-shadow: 0 7px #4e4d4d;
   }
   .non-home {
     padding-left: 15vw;
