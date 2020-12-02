@@ -161,7 +161,7 @@ table {
 
 .earth1 {
   background-image: url("/assets/earth1.jpg");
-  background-size: 50vw auto;
+  background-size: 50vw 100vh;
   background-position: center center;
   height: 100vh;
   background-repeat: no-repeat;
@@ -170,7 +170,7 @@ table {
 
 .earth2 {
   background-image: url("/assets/earth2.jpg");
-  background-size: 50vw auto;
+  background-size: 50vw 100vh;
   height: 100vh;
   background-position: center center;
   background-repeat: no-repeat;
