@@ -29,8 +29,6 @@ body:hover {
   cursor: default;
 }
 
-
-
 ::selection {
   background-color: transparent;
 }
@@ -139,8 +137,6 @@ td {
   text-align: right;
 }
 
-.right .card {
-}
 
 th {
   z-index: 2 !important;
@@ -221,7 +217,7 @@ a:hover {
     border: none;
     position: relative;
     white-space: normal;
-    text-align: center !important;
+    text-align: left !important;
     width: 100vw;
     padding: 0;
     padding-top: 5vh;
@@ -255,7 +251,7 @@ a:hover {
     border: none;
     position: relative;
     white-space: normal;
-    text-align: center !important;
+    text-align: left !important;
     width: 100vw;
     padding: 0;
     padding-top: 5vh;
