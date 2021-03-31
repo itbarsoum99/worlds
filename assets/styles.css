@@ -231,6 +231,10 @@ a:hover {
     padding-left: 2.5vw;
     padding-right: 2.5vw;
   }
+  .heading {
+    margin-left: 5vw;
+    padding-bottom: 12px;
+  }
   .non-home {
     padding-left: 15vw;
     padding-right: 15vw;
@@ -265,6 +269,10 @@ a:hover {
     margin-right: 5vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
+  }
+  .heading {
+    margin-left: 5vw;
+    padding-bottom: 12px;
   }
   .non-home {
     padding-left: 15vw;
